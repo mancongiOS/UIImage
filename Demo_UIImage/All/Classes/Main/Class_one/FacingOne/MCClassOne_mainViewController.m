@@ -17,6 +17,7 @@
 #import "MCClassOne_fourViewController.h"
 #import "MCClassOne_fivwViewController.h"
 #import "MCClassOne_sixViewController.h"
+#import "MCClassOne_sevenViewController.h"
 
 @interface MCClassOne_mainViewController () <UITableViewDelegate,UITableViewDataSource>
 
@@ -86,6 +87,9 @@
     } else if (indexPath.row == 5) {
         MCClassOne_sixViewController * sixViewController = [[MCClassOne_sixViewController alloc] init];
         [self.navigationController pushViewController:sixViewController animated:YES];
+    } else if (indexPath.row == 6) {
+        MCClassOne_sevenViewController * sevenViewController = [[MCClassOne_sevenViewController alloc] init];
+        [self.navigationController pushViewController:sevenViewController animated:YES];
     }
 }
 
@@ -112,7 +116,7 @@
 
 - (void)createData
 {
-    NSArray * array = @[@"图片旋转",@"图片剪切",@"裁切一个圆形头像",@"图片的拉伸",@"屏幕截屏",@"给图片添加水印"];
+    NSArray * array = @[@"图片旋转",@"图片剪切",@"裁切一个圆形头像",@"图片的拉伸",@"屏幕截屏",@"给图片添加水印",@"毛玻璃效果"];
     
     self.dataArrayM = [NSMutableArray arrayWithArray:array];
     

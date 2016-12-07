@@ -7,7 +7,7 @@
 //
 
 #import "UIImage+ImageRotate.h"
-//#import <QuartzCore/QuartzCore.h>
+#import <QuartzCore/QuartzCore.h>
 #import <Accelerate/Accelerate.h>
 
 @implementation UIImage (ImageRotate)

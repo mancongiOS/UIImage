@@ -18,6 +18,8 @@
 		4446E7221DF057A90034CDAB /* gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4446E7181DF057A90034CDAB /* gif.gif */; };
 		4446E7231DF057A90034CDAB /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 4446E7191DF057A90034CDAB /* index.html */; };
 		4446E7251DF05A960034CDAB /* kobe.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4446E7241DF05A960034CDAB /* kobe.gif */; };
+		446EDA211DF7B948003474DA /* MCClassOne_sevenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 446EDA201DF7B948003474DA /* MCClassOne_sevenViewController.m */; };
+		446EDA561DF7C6B9003474DA /* blurry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 446EDA551DF7C6B9003474DA /* blurry.jpg */; };
 		44C9830A1DDF579D0075A341 /* MCClassTwo_mainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C983091DDF579D0075A341 /* MCClassTwo_mainViewController.m */; };
 		44C9830E1DDF58510075A341 /* MCClassTwo_oneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C9830D1DDF58510075A341 /* MCClassTwo_oneViewController.m */; };
 		44C983121DDF5E270075A341 /* MCClassTwo_twoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C983111DDF5E270075A341 /* MCClassTwo_twoViewController.m */; };
@@ -79,6 +81,9 @@
 		4446E7181DF057A90034CDAB /* gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif.gif; sourceTree = "<group>"; };
 		4446E7191DF057A90034CDAB /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		4446E7241DF05A960034CDAB /* kobe.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = kobe.gif; sourceTree = "<group>"; };
+		446EDA1F1DF7B948003474DA /* MCClassOne_sevenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCClassOne_sevenViewController.h; sourceTree = "<group>"; };
+		446EDA201DF7B948003474DA /* MCClassOne_sevenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCClassOne_sevenViewController.m; sourceTree = "<group>"; };
+		446EDA551DF7C6B9003474DA /* blurry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blurry.jpg; sourceTree = "<group>"; };
 		44C983081DDF579D0075A341 /* MCClassTwo_mainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCClassTwo_mainViewController.h; sourceTree = "<group>"; };
 		44C983091DDF579D0075A341 /* MCClassTwo_mainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCClassTwo_mainViewController.m; sourceTree = "<group>"; };
 		44C9830C1DDF58510075A341 /* MCClassTwo_oneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCClassTwo_oneViewController.h; sourceTree = "<group>"; };
@@ -294,6 +299,7 @@
 		44CB52211DD9B3A6000A7B73 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				446EDA551DF7C6B9003474DA /* blurry.jpg */,
 				4446E7241DF05A960034CDAB /* kobe.gif */,
 				4446E7101DF057A90034CDAB /* 1.png */,
 				4446E7111DF057A90034CDAB /* 2.png */,
@@ -431,6 +437,8 @@
 		44CB52B31DD9B651000A7B73 /* ClassSeven */ = {
 			isa = PBXGroup;
 			children = (
+				446EDA1F1DF7B948003474DA /* MCClassOne_sevenViewController.h */,
+				446EDA201DF7B948003474DA /* MCClassOne_sevenViewController.m */,
 			);
 			path = ClassSeven;
 			sourceTree = "<group>";
@@ -621,6 +629,7 @@
 				4446E7251DF05A960034CDAB /* kobe.gif in Resources */,
 				4446E71E1DF057A90034CDAB /* 5.png in Resources */,
 				4446E7201DF057A90034CDAB /* 7.png in Resources */,
+				446EDA561DF7C6B9003474DA /* blurry.jpg in Resources */,
 				4446E7221DF057A90034CDAB /* gif.gif in Resources */,
 				44CB522E1DD9B3A6000A7B73 /* Assets.xcassets in Resources */,
 				44CB52ED1DD9B651000A7B73 /* Info.plist in Resources */,
@@ -653,6 +662,7 @@
 				44CB53061DDA0B2A000A7B73 /* MCClassOne_twoViewController.m in Sources */,
 				44CB52EE1DD9B651000A7B73 /* MASCompositeConstraint.m in Sources */,
 				44CB532E1DDB5565000A7B73 /* MCClassOne_fourViewController.m in Sources */,
+				446EDA211DF7B948003474DA /* MCClassOne_sevenViewController.m in Sources */,
 				44CB53091DDA0C54000A7B73 /* UIImage+ImageCut.m in Sources */,
 				44CB53311DDB579F000A7B73 /* UIView+ImageScreenShot.m in Sources */,
 				44CB52F31DD9B651000A7B73 /* MASViewConstraint.m in Sources */,

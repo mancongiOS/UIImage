@@ -12,5 +12,4 @@
 
 - (UIImage *)imageWater:(UIImage *)imageLogo waterString:(NSString *)waterString;
 
-
 @end
