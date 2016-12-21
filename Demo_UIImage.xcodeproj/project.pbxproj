@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4418C8E51E0A738E00A46629 /* MCClassFour_mainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4418C8E41E0A738E00A46629 /* MCClassFour_mainViewController.m */; };
+		4418C8EB1E0A7BEF00A46629 /* UIImage+fixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4418C8EA1E0A7BEF00A46629 /* UIImage+fixOrientation.m */; };
 		4446E71A1DF057A90034CDAB /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4446E7101DF057A90034CDAB /* 1.png */; };
 		4446E71B1DF057A90034CDAB /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4446E7111DF057A90034CDAB /* 2.png */; };
 		4446E71C1DF057A90034CDAB /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4446E7121DF057A90034CDAB /* 3.png */; };
@@ -17,9 +19,10 @@
 		4446E7211DF057A90034CDAB /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 4446E7171DF057A90034CDAB /* 8.png */; };
 		4446E7221DF057A90034CDAB /* gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4446E7181DF057A90034CDAB /* gif.gif */; };
 		4446E7231DF057A90034CDAB /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 4446E7191DF057A90034CDAB /* index.html */; };
-		4446E7251DF05A960034CDAB /* kobe.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4446E7241DF05A960034CDAB /* kobe.gif */; };
 		446EDA211DF7B948003474DA /* MCClassOne_sevenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 446EDA201DF7B948003474DA /* MCClassOne_sevenViewController.m */; };
 		446EDA561DF7C6B9003474DA /* blurry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 446EDA551DF7C6B9003474DA /* blurry.jpg */; };
+		44AEE99B1DFEC9330049E704 /* kobe.gif in Resources */ = {isa = PBXBuildFile; fileRef = 44AEE99A1DFEC9330049E704 /* kobe.gif */; };
+		44AEE99D1DFECD3D0049E704 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 44AEE99C1DFECD3D0049E704 /* red.png */; };
 		44C9830A1DDF579D0075A341 /* MCClassTwo_mainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C983091DDF579D0075A341 /* MCClassTwo_mainViewController.m */; };
 		44C9830E1DDF58510075A341 /* MCClassTwo_oneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C9830D1DDF58510075A341 /* MCClassTwo_oneViewController.m */; };
 		44C983121DDF5E270075A341 /* MCClassTwo_twoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C983111DDF5E270075A341 /* MCClassTwo_twoViewController.m */; };
@@ -70,6 +73,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4418C8E31E0A738E00A46629 /* MCClassFour_mainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCClassFour_mainViewController.h; sourceTree = "<group>"; };
+		4418C8E41E0A738E00A46629 /* MCClassFour_mainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCClassFour_mainViewController.m; sourceTree = "<group>"; };
+		4418C8E91E0A7BEF00A46629 /* UIImage+fixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+fixOrientation.h"; sourceTree = "<group>"; };
+		4418C8EA1E0A7BEF00A46629 /* UIImage+fixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+fixOrientation.m"; sourceTree = "<group>"; };
 		4446E7101DF057A90034CDAB /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		4446E7111DF057A90034CDAB /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		4446E7121DF057A90034CDAB /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
@@ -80,10 +87,11 @@
 		4446E7171DF057A90034CDAB /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
 		4446E7181DF057A90034CDAB /* gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif.gif; sourceTree = "<group>"; };
 		4446E7191DF057A90034CDAB /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
-		4446E7241DF05A960034CDAB /* kobe.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = kobe.gif; sourceTree = "<group>"; };
 		446EDA1F1DF7B948003474DA /* MCClassOne_sevenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCClassOne_sevenViewController.h; sourceTree = "<group>"; };
 		446EDA201DF7B948003474DA /* MCClassOne_sevenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCClassOne_sevenViewController.m; sourceTree = "<group>"; };
 		446EDA551DF7C6B9003474DA /* blurry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blurry.jpg; sourceTree = "<group>"; };
+		44AEE99A1DFEC9330049E704 /* kobe.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = kobe.gif; sourceTree = "<group>"; };
+		44AEE99C1DFECD3D0049E704 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
 		44C983081DDF579D0075A341 /* MCClassTwo_mainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCClassTwo_mainViewController.h; sourceTree = "<group>"; };
 		44C983091DDF579D0075A341 /* MCClassTwo_mainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCClassTwo_mainViewController.m; sourceTree = "<group>"; };
 		44C9830C1DDF58510075A341 /* MCClassTwo_oneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCClassTwo_oneViewController.h; sourceTree = "<group>"; };
@@ -182,6 +190,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4418C8E21E0A737000A46629 /* Class_four */ = {
+			isa = PBXGroup;
+			children = (
+				4418C8E31E0A738E00A46629 /* MCClassFour_mainViewController.h */,
+				4418C8E41E0A738E00A46629 /* MCClassFour_mainViewController.m */,
+			);
+			path = Class_four;
+			sourceTree = "<group>";
+		};
 		44C983061DDF57730075A341 /* Class_two */ = {
 			isa = PBXGroup;
 			children = (
@@ -299,8 +316,9 @@
 		44CB52211DD9B3A6000A7B73 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				44AEE99C1DFECD3D0049E704 /* red.png */,
+				44AEE99A1DFEC9330049E704 /* kobe.gif */,
 				446EDA551DF7C6B9003474DA /* blurry.jpg */,
-				4446E7241DF05A960034CDAB /* kobe.gif */,
 				4446E7101DF057A90034CDAB /* 1.png */,
 				4446E7111DF057A90034CDAB /* 2.png */,
 				4446E7121DF057A90034CDAB /* 3.png */,
@@ -338,6 +356,8 @@
 		44CB52A01DD9B651000A7B73 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				4418C8E91E0A7BEF00A46629 /* UIImage+fixOrientation.h */,
+				4418C8EA1E0A7BEF00A46629 /* UIImage+fixOrientation.m */,
 				44CB53011DD9FF52000A7B73 /* UIImage+ImageRotate.h */,
 				44CB53021DD9FF52000A7B73 /* UIImage+ImageRotate.m */,
 				44CB53071DDA0C54000A7B73 /* UIImage+ImageCut.h */,
@@ -380,6 +400,7 @@
 				44CB52A61DD9B651000A7B73 /* Class_one */,
 				44C983061DDF57730075A341 /* Class_two */,
 				44C983131DDF608A0075A341 /* Class_three */,
+				4418C8E21E0A737000A46629 /* Class_four */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -585,6 +606,7 @@
 				TargetAttributes = {
 					44CB521D1DD9B3A6000A7B73 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = J36BV6FDHM;
 						ProvisioningStyle = Automatic;
 					};
 					44CB52361DD9B3A6000A7B73 = {
@@ -626,12 +648,13 @@
 				4446E71F1DF057A90034CDAB /* 6.png in Resources */,
 				4446E71B1DF057A90034CDAB /* 2.png in Resources */,
 				4446E71C1DF057A90034CDAB /* 3.png in Resources */,
-				4446E7251DF05A960034CDAB /* kobe.gif in Resources */,
 				4446E71E1DF057A90034CDAB /* 5.png in Resources */,
 				4446E7201DF057A90034CDAB /* 7.png in Resources */,
 				446EDA561DF7C6B9003474DA /* blurry.jpg in Resources */,
 				4446E7221DF057A90034CDAB /* gif.gif in Resources */,
 				44CB522E1DD9B3A6000A7B73 /* Assets.xcassets in Resources */,
+				44AEE99B1DFEC9330049E704 /* kobe.gif in Resources */,
+				44AEE99D1DFECD3D0049E704 /* red.png in Resources */,
 				44CB52ED1DD9B651000A7B73 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -675,9 +698,11 @@
 				44CB530C1DDA10CA000A7B73 /* MCClassOne_threeViewController.m in Sources */,
 				44CB52F71DD9B651000A7B73 /* ViewController+MASAdditions.m in Sources */,
 				44CB52FA1DD9B71D000A7B73 /* MCClassOne_mainViewController.m in Sources */,
+				4418C8E51E0A738E00A46629 /* MCClassFour_mainViewController.m in Sources */,
 				44CB53121DDA1577000A7B73 /* UIImage+ImageCircle.m in Sources */,
 				44CB533A1DDB5CF8000A7B73 /* MCClassOne_sixViewController.m in Sources */,
 				44CB52F01DD9B651000A7B73 /* MASConstraintMaker.m in Sources */,
+				4418C8EB1E0A7BEF00A46629 /* UIImage+fixOrientation.m in Sources */,
 				44CB52231DD9B3A6000A7B73 /* main.m in Sources */,
 				44C9831A1DDF60C20075A341 /* MCClassThree_mainViewController.m in Sources */,
 				44CB52EF1DD9B651000A7B73 /* MASConstraint.m in Sources */,
@@ -809,7 +834,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J36BV6FDHM;
 				INFOPLIST_FILE = Demo_UIImage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.glela.Demo-UIImage";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -820,7 +847,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J36BV6FDHM;
 				INFOPLIST_FILE = Demo_UIImage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.glela.Demo-UIImage";
 				PRODUCT_NAME = "$(TARGET_NAME)";

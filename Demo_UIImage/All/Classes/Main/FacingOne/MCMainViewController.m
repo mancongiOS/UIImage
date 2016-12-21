@@ -13,6 +13,7 @@
 #import "MCClassOne_mainViewController.h"
 #import "MCClassTwo_mainViewController.h"
 #import "MCClassThree_mainViewController.h"
+#import "MCClassFour_mainViewController.h"
 
 @interface MCMainViewController () <UITableViewDelegate,UITableViewDataSource>
 
@@ -74,6 +75,10 @@
     
         MCClassThree_mainViewController * mainViewController = [[MCClassThree_mainViewController alloc] init];
         [self.navigationController pushViewController:mainViewController animated:YES];
+    } else if (indexPath.row == 3) {
+    
+        MCClassFour_mainViewController * mainViewController = [[MCClassFour_mainViewController alloc] init];
+        [self.navigationController pushViewController:mainViewController animated:YES];
     }
 }
 
@@ -100,7 +105,7 @@
 
 - (void)createData
 {
-    NSArray * array = @[@"UIImage上下文",@"图片类型转换jpg<-->png",@"Gif",@"3"];
+    NSArray * array = @[@"UIImage上下文",@"图片类型转换/图片拉伸",@"Gif",@"UIImage的方向(imageOrientation)"];
     
     self.dataArrayM = [NSMutableArray arrayWithArray:array];
     

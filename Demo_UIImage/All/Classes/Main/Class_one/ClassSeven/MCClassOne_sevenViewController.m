@@ -141,7 +141,7 @@
     if (_blurryImageView == nil) {
         self.blurryImageView = [[UIImageView alloc] init];
         UIImage * image = [UIImage imageNamed:@"blurry.jpg"];
-        self.blurryImageView.image = [self blurryImage:image withBlurLevel:1];
+        self.blurryImageView.image = [self blurryImage:image withBlurLevel:0.8];
     } return _blurryImageView;
 }
 

@@ -67,7 +67,8 @@
         MCClassTwo_oneViewController * oneViewController = [[MCClassTwo_oneViewController alloc] init];
         [self.navigationController pushViewController:oneViewController animated:YES];
     } else if (indexPath.row == 1) {
-
+        MCClassTwo_twoViewController * two = [[MCClassTwo_twoViewController alloc] init];
+        [self.navigationController pushViewController:two animated:YES];
     }
 }
 
@@ -94,7 +95,7 @@
 
 - (void)createData
 {
-    NSArray * array = @[@"jpg <--> png"];
+    NSArray * array = @[@"jpg <--> png",@"图片拉伸"];
     
     self.dataArrayM = [NSMutableArray arrayWithArray:array];
     
